@@ -7,7 +7,7 @@ import { useContext, useEffect,useState} from 'react'
 /**
  * Components
  */
-import { DataContext } from '../Context/DataContext'
+import { DataContext } from '../context/DataContext'
 
 /**
  * @description fetched API about each Gif selected by category

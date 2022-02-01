@@ -6,7 +6,7 @@ import { useContext, useEffect } from "react";
 /**
  * Components
  */
-import { DataContext } from "../Context/DataContext";
+import { DataContext } from "../context/DataContext";
 
 /**
  * @description fetched API about autocomplete selected by text on Input
