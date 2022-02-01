@@ -1,0 +1,39 @@
+.list{
+    border: 2px solid #00CBF5;
+    margin-top: 10px;
+    border-radius: 10px;
+    list-style: none;
+    padding-left: 0px;
+    overflow: hidden;
+
+    li{
+        padding: 8px 0 8px 15px;
+        border-bottom: 2px solid #eee;
+        cursor: pointer;
+        overflow: hidden;
+        img{
+            width: 13px;
+            height: 13px;
+            margin-right: 5px;
+            
+        }
+    }
+    li:hover{
+        background-color: #00CBF5;
+        color: black;
+    }
+}
+.li-dark{
+    background-color: rgba(207, 206, 206, 0.87);
+    color: black;
+}
+
+@media (min-width: 530px) { 
+    .list{
+        width: 360px;
+        margin: 0 auto;
+        margin-top: 10px;
+        
+
+ }
+}

@@ -1,0 +1,51 @@
+.header {
+    align-items: center;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 50px;
+    color: #00CBF5;
+
+    .appearanceButton {
+        display: flex;
+        cursor: pointer;
+        font-weight: bold;
+
+
+
+        &:hover {
+            border-bottom: 1px solid #00CBF5;
+        }
+
+        img {
+            width: 14px;
+            fill: blue;
+            padding-bottom: 10px;
+            padding-right: 2px;
+
+        }
+
+        p {
+            padding: 0 2px;
+        }
+    }
+
+
+
+}
+
+.header_dark{
+    color: white ;
+}
+@media (min-width: 800px) { 
+    .header{
+        width: 720px;
+       
+    }
+        
+
+ 
+}

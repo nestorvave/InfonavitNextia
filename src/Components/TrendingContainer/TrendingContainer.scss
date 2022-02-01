@@ -1,0 +1,43 @@
+.trending_Container {
+    margin: auto;
+    width: 70%;
+    height: 370px;
+    padding-bottom: 20px;
+    background-color: #eee;
+    margin-top: 40px;
+    color: #00CBF5;
+
+    .trending_Container_title {
+        text-align: center;
+        height: 13%;
+
+
+    }
+
+
+}
+
+.trending_Container_dark {
+    background-color: #272727;
+  
+}
+
+.trending_Container_title_dark{
+    color: white;
+}
+
+@media (min-width: 650px) {
+    .trending_Container {
+
+        width: 480px;
+        height: 380px;
+
+
+
+
+    }
+
+
+
+
+}

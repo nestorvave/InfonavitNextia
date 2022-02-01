@@ -1,0 +1,50 @@
+.mainContainer{
+    margin: 0 auto;
+    width: 80%;
+    color: #00CBF5;
+
+    h3{
+        text-align: center;
+       
+    }
+    .gifCards{
+        margin-top: 30px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+        .no-data{
+            width: 100%;
+        }
+
+        
+    }
+    
+    
+}
+.mainContainer_dark {
+    color: white;
+}
+.gifCards_dark{
+    background-color: #272727;
+
+}
+.gifCards_ligth{
+    background-color: #eee;
+}
+@media (min-width: 650px) { 
+    .mainContainer{
+        width: 65%;
+    .gifCards{
+        display: flex;
+        flex-wrap: wrap;
+        .no-data{
+            width: 60%;
+            background-color: transparent;
+        }
+    }
+    }
+}

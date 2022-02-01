@@ -1,0 +1,104 @@
+.form {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    position: relative;
+
+    .delete {
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        left: 70%;
+        bottom: 30%;
+        cursor: pointer;
+
+    }
+
+    input {
+        border-radius: 10px 0 0 10px;
+        height: 100%;
+        padding-left: 10px;
+        width: 80%;
+
+    }
+
+    button {
+        background-color: #00CBF5;
+        border-radius: 0 10px 10px 0;
+        border: none;
+        cursor: pointer;
+        height: 100%;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 40%;
+
+        }
+    }
+
+}
+
+.form_dark {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+
+    
+}
+.form_dark:hover{
+    background-color: white;
+    color: black;
+}
+
+@media (min-width: 530px) {
+    .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+
+        .delete {
+
+            left: 65%;
+
+
+        }
+
+        input {
+            width: 290px;
+
+
+        }
+
+        button {
+            height: 100%;
+            width: 60px;
+
+            img {
+                width: 40%;
+
+            }
+        }
+    }
+
+
+}
+
+@media (min-width: 800px) {
+    .form {
+
+        .delete {
+
+            left: 58%;
+
+
+        }
+
+
+    }
+
+
+}

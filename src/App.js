@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+/**
+ * Dependencies
+ */
+import React, { useContext } from "react";
 
-function App() {
+/**
+ * Components
+ */
+import { Gifs } from "./Components/GifBody/Gifs";
+import { Header } from "./Components/Header/Header";
+import { Searcher } from "./Components/Searcher/Searcher";
+import { TrendingContainer } from "./Components/TrendingContainer/TrendingContainer";
+import { Footer } from "./Components/Footer/Footer";
+import { DataContext } from "./context/DataContext";
+
+/**
+ * Styles
+ */
+import './App.scss'
+import 'animate.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+export const App = () => {
+
+  const {theme}=useContext( DataContext )
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={` ${theme && "dark" }`}>
+      <Header />
+      <Searcher />
+      <Gifs />
+      <TrendingContainer />
+      <Footer />
     </div>
-  );
-}
 
-export default App;
+  );
+};
