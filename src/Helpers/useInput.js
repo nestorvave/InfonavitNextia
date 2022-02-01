@@ -4,8 +4,8 @@
 import { useState } from "react"
 
 /**
- * @description crea un event listener al resize
- * @returns {Number} – window.innerWidth
+ * @description Hook to handle a data of an input
+ * @returns {string,function,setInput} – input,handleInput,setInput
  */
 
 export const useInput = (initialState="") => {

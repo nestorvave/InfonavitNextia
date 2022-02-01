@@ -4,9 +4,10 @@
 import { useEffect, useState } from "react";
 
 /**
- * @description crea un event listener al resize
- * @returns {Number} – window.innerWidth
+ * @description fetched API about trending gifs
+ * @returns {Array} – data of trends gifs
  */
+
 
 export const useGetTrends = () => {
 

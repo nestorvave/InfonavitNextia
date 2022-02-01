@@ -6,11 +6,11 @@ import { useContext, useEffect } from "react";
 /**
  * Components
  */
-import { DataContext } from "../context/DataContext";
+import { DataContext } from "../Context/DataContext";
 
 /**
- * @description crea un event listener al resize
- * @returns {Array} – window.innerWidth
+ * @description fetched API about autocomplete selected by text on Input
+ * @returns {Array} – autocomplete
  */
 
 export const useGetAutocomplete = (search="") => {
