@@ -15,8 +15,6 @@ import { DataContext } from "../context/DataContext";
 
 export const useGetAutocomplete = (search="") => {
     
-
-    
     
     const {autocomplete,setAutocomplete}=useContext( DataContext )
 

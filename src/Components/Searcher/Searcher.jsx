@@ -23,7 +23,7 @@ export const Searcher = () => {
             <h1 className={`${theme && "searchContainer_dark" } animate__animated animate__flipInX animate__delay-3s ` } >
                 Get inspired and find the best <b>GIFS!</b> 
             </h1>
-            <img className='animate__animated animate__flipInY animate__delay-3s' src="./images/explore.svg" alt="explore"  /> 
+            <img className='animate__animated animate__flipInY animate__delay-3s' src="/images/explore.svg" alt="explore"  /> 
             <Form />
             
         </section>

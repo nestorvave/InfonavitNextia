@@ -52,7 +52,7 @@ export const Form = () => {
                     <img 
                         onClick={clearInput}  
                         className='delete' 
-                        src="./Images/delete.svg" 
+                        src="/images/delete.svg" 
                         alt="search"  
                     />
             } 
@@ -64,7 +64,7 @@ export const Form = () => {
             />
             
             <button onClick={handleSubmit} >
-               <img src="./Images/search.svg" alt="search"  />
+               <img src="/images/search.svg" alt="search"  />
             </button>
            
         </form>

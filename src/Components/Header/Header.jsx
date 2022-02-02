@@ -27,7 +27,7 @@ export const Header = () => {
             onClick={()=>setTheme(!theme)} 
             >
 
-              <img src={`./images/${ theme ? "moon" :"sun" }.svg`} alt=""  />
+              <img src={`/images/${ theme ? "moon" :"sun" }.svg`} alt=""  />
               <p className={`${theme && "header_dark"}`} >{theme ? "Dark" :"Ligth" } mode</p>
 
           </div>
