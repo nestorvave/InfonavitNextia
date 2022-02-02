@@ -35,7 +35,7 @@ export const Gifs = () => {
             gifs.length === 0 && isSearching === null ? (
               <>
               <p>No data found</p>
-              <img src="/Images/nodata1.svg" className="no-data" alt="no-data" />
+              <img src="/images/nodata1.svg" className="no-data" alt="no-data" />
               </>
             ):(
             gifs.map((gif) => 
