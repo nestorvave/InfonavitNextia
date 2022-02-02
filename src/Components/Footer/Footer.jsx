@@ -17,21 +17,21 @@ export const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src="/images/github.svg" alt="" />
+          <img src="/Images/github.svg" alt="" />
         </a>
         <a
           href="https://www.instagram.com/nestorvave/"
           target="_blank"
           rel="noreferrer"
         >
-          <img src="/images/instagram.svg" alt="" />
+          <img src="/Images/instagram.svg" alt="" />
         </a>
         <a
           href="https://www.linkedin.com/in/nestorvave/"
           target="_blank"
           rel="noreferrer"
         >
-          <img src="/images/linkedin.svg" alt="" />
+          <img src="/Images/linkedin.svg" alt="" />
         </a>
       </div>
       <p className="footer-title">Made by Nestor Vargas</p>

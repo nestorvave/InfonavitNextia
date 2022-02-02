@@ -34,7 +34,7 @@ export const Autcomplete = ({data=null,setInput}) => {
                   key={item} 
                   className={` ${theme && "li-dark"} `} 
                 >
-                  <img src="/images/search.svg"  alt="search"  /> 
+                  <img src="/Images/search.svg"  alt="search"  /> 
                   {item}
                 </li>
           ))
