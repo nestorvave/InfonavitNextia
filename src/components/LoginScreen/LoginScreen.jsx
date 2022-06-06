@@ -46,17 +46,18 @@ const LoginScreen = () => {
           return res.json()
         })
         .then((data) => {
-          console.log(data)
           if (data.id) {
             setStatus({...status,auth:true});
           }
           if(data.error){
-            // setEffect(true)
+            setEffect(true)
+            setStatus({...status,auth:false});
+            setCredentials("")
           }
         })
         .catch((err) => console.error(err));
     }
-  }, [setStatus, encrypted, credentials,status]);
+  }, [ encrypted, credentials,setStatus,setEffect]);
 
   function handleCredentials(e) {
     e.preventDefault();
