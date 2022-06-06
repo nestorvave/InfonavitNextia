@@ -1,37 +1,16 @@
-/**
- * Dependencies
- */
-import React, { useContext } from "react";
+import React from "react";
+import "./styles/styles.scss";
+import AppRouter from "./routers/AppRouter";
+import Search from "./components/Search/Search";
+import { DataProvider } from "./context/DataProvider";
 
-/**
- * Components
- */
-import { Gifs } from "./Components/GifBody/Gifs";
-import { Header } from "./Components/Header/Header";
-import { Searcher } from "./Components/Searcher/Searcher";
-import { TrendingContainer } from "./Components/TrendingContainer/TrendingContainer";
-import { Footer } from "./Components/Footer/Footer";
-import { DataContext } from "./context/DataContext";
-
-/**
- * Styles
- */
-import './App.scss'
-import 'animate.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-export const App = () => {
-
-  const {theme}=useContext( DataContext )
-
+const App = () => {
   return (
-    <div className={` ${theme && "dark" }`}>
-      <Header />
-      <Searcher />
-      <Gifs />
-      <TrendingContainer />
-      <Footer />
-    </div>
-
+    <DataProvider>
+      {/* <AppRouter /> */}
+      <AppRouter />
+    </DataProvider>
   );
 };
+
+export default App;

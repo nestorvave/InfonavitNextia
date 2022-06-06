@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all .5s ease;
+
+}
+.authScreen{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+}
+.container{
+    width: 100%;
+    flex-direction: column;
+    background-color: #ccc;
+}
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.homePage {
+    width: 100%;
+    border: 1px solid green;
+
+}
+
+
+.eske{
+    width: 295px;
+    height: 200px;
+    border: 1px solid #eeee;
+    margin: 10px 0 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+
+
+    &__images{
+        width: 80%;
+        height: 100px;
+        margin: 0 auto;
+        
+    }
+    &__text{
+        width: 80%;
+        height: 45px;
+        margin: 0 auto;
+        
+    }
+    &__button{
+        width: 80px;
+        height: 40px;
+        border-radius: 10px;
+        margin: 0 auto;
+        border: none;
+       
+    }
+   
+}

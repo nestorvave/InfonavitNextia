@@ -7,13 +7,10 @@ import ReactDOM from 'react-dom';
 /**
  * Components
  */
-import {App} from './App';
-import { DataProvider } from "./context/DataContext";
+import App from './App';
 
 ReactDOM.render(
-  <DataProvider>
-    <App />
-  </DataProvider>,
+    <App />,
   document.getElementById('root')
 );
 

@@ -1,0 +1,53 @@
+.nav{
+    width: 100%;
+    height: 40px;
+    background-color: $primary;
+    color: white;
+    flex-direction: row;
+    justify-content: space-evenly;
+    &__section{
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        height: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+        &--link{
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            font-size: 12px;
+            &:hover{
+                border-bottom: 1px solid white;
+            }
+        }
+
+    }
+    p{
+        font-size: 15px;
+    }
+    
+}
+@media (min-width: 650px) { 
+    .nav{
+        padding-right: 20px;
+        justify-content: space-between;
+        &__section{
+            display: flex;
+            flex-direction: row;
+            width: 20%;
+            height: 100%;
+           
+            &--link{
+                font-size: 16px;
+           
+            }
+    
+        }
+        p{
+            padding-right: 20px;
+        }
+        
+    }
+ }

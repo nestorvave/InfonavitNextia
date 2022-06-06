@@ -1,0 +1,13 @@
+//General
+@import './base/settings';
+@import './base/base';
+
+//Componentes
+@import './components/cards';
+@import '../components/LoginScreen/LoginScreen';
+@import '../components/Unlock/Unlock';
+@import '../components/Benefits/Benefits';
+@import '../components/Locked/Locked';
+@import '../components/NavBar/NavBar';
+@import '../components/MsgWarning/MsgWarning';
+@import '../components/Search/Search';
